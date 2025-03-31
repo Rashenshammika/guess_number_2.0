@@ -11,14 +11,14 @@
         
         <h1>Number Guessing Game</h1>
         <p>The game randomly generates a number between 1 and 10.</p>
-        <p>The player has 3 attempts to guess the correct number.</p>
+        <p>The player has 3 chance to guess the correct number.</p>
         <p>"Too high!" if the guess is greater than the target number.</p>
         <p>"Too low!" if the guess is less than the target number.</p><br><br>
 
         <input type="number" id="numberInput" placeholder="Guess the number 1-10">
         <button onclick="checkNumber()">Guess</button>
         <p id="result"></p>
-        <p>Attempts Left: <span id="attempts">3</span></p>
+        <p>Chance Left: <span id="attempts">3</span></p>
         <button onclick="resetGame()" class="reset-btn" id="restartBtn">Restart Game</button>
     </div>
     
