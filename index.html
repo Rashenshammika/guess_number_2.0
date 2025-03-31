@@ -8,8 +8,13 @@
 </head>
 <body>
     <div class="game-container">
+        
         <h1>Number Guessing Game</h1>
-        <p>Guess a number between 1 and 10</p>
+        <p>The game randomly generates a number between 1 and 10.</p>
+        <p>The player has 3 attempts to guess the correct number.</p>
+        <p>"Too high!" if the guess is greater than the target number.</p>
+        <p>"Too low!" if the guess is less than the target number.</p><br><br>
+
         <input type="number" id="numberInput" placeholder="Enter a number">
         <button onclick="checkNumber()">Guess</button>
         <p id="result"></p>
